@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1b1a20">
+<title>Repair Service — авто под ключ</title>
+<meta name="description" content="Repair Service: решаем задачи с автомобилями под ключ. ТО, ремонт после ДТП, детейлинг, оригинальные запчасти и аксессуары, прокат.">
+<link rel="icon" href="./assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="top" id="top">
+  <a class="brand" href="#top" aria-label="Repair Service — наверх">
+    <span class="rs">RS</span>
+    <span class="brand-name">Repair<br>Service</span>
+  </a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="#services">Услуги</a>
+    <a href="#rent">Прокат</a>
+    <a href="#how">Как работаем</a>
+    <a href="#request">Заявка</a>
+  </nav>
+  <a class="call" href="tel:+79382029777">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+    <span>8 (938) 202-97-77</span>
+  </a>
+</header>
+
+<main>
+<!-- первый экран: 911 поворачивается по прокрутке -->
+<section class="hero" data-hero>
+  <div class="pin">
+    <div class="glow" aria-hidden="true"></div>
+    <canvas class="stage" data-car aria-label="3D-модель Porsche 911: её можно повернуть мышью или пальцем"></canvas>
+    <div class="loader" data-loader><i data-loader-bar></i><span data-loader-text>Загружаем 911…</span></div>
+
+    <div class="hero-text">
+      <p class="kicker"><i></i>Repair Service</p>
+      <h1>Авто<br><em>под ключ</em></h1>
+      <p class="lead">Решаем задачи с автомобилями под ключ: ТО, ремонт после ДТП, детейлинг. Оригинальные запчасти, аксессуары и прокат.</p>
+      <div class="btns">
+        <a class="btn gold" href="#request">Оставить заявку</a>
+        <a class="btn ghost" href="tel:+79382029777">Позвонить</a>
+      </div>
+    </div>
+
+    <div class="stagecard" aria-live="polite">
+      <div class="stagecard-top"><b data-stage-n>01</b><span>/ 03</span></div>
+      <h2 data-stage-title>ТО</h2>
+      <p data-stage-text>Плановое обслуживание по регламенту автомобиля.</p>
+      <div class="dots" data-stage-dots><i class="on"></i><i></i><i></i></div>
+    </div>
+
+    <div class="paint">
+      <span>Цвет</span>
+      <button class="on" data-paint="#e0aa3e" style="--c:#d6a23f" aria-label="Золотой"></button>
+      <button data-paint="#323137" style="--c:#4a4852" aria-label="Графит"></button>
+      <button data-paint="#f2f1ee" style="--c:#f2f1ee" aria-label="Белый"></button>
+    </div>
+    <div class="hint" data-hint>листайте вниз · крутите машину</div>
+    <div class="bar" data-bar></div>
+  </div>
+</section>
+
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="kicker"><i></i>Услуги</p>
+      <h2>Всё для автомобиля <em>в одном месте</em></h2>
+    </div>
+    <div class="cards">
+      <article class="card rv" data-pick="ТО">
+        <span class="num">01</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg>
+        <h3>ТО</h3>
+        <p>Плановое обслуживание по регламенту автомобиля.</p>
+        <a href="#request">Записаться <span>→</span></a>
+      </article>
+      <article class="card rv" data-pick="Ремонт после ДТП">
+        <span class="num">02</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 13l2-5a2 2 0 0 1 1.9-1.3h10.2A2 2 0 0 1 19 8l2 5v5h-3v-2H6v2H3z"/><circle cx="7.5" cy="13.5" r="1"/><circle cx="16.5" cy="13.5" r="1"/><path d="M10 3l1.2 2.4M14 3l-1.2 2.4"/></svg>
+        <h3>Ремонт после ДТП</h3>
+        <p>Восстанавливаем автомобиль после аварии.</p>
+        <a href="#request">Оценить ремонт <span>→</span></a>
+      </article>
+      <article class="card rv" data-pick="Детейлинг">
+        <span class="num">03</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9l-4.7 1.8L12 15.5l-1.8-4.7L5.5 9l4.7-1.3z"/><path d="M18.5 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+        <h3>Детейлинг</h3>
+        <p>Приводим в порядок кузов и салон.</p>
+        <a href="#request">Записаться <span>→</span></a>
+      </article>
+      <article class="card rv" data-pick="Запчасти и аксессуары">
+        <span class="num">04</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+        <h3>Запчасти и аксессуары</h3>
+        <p>Оригинальные запчасти и аксессуары.</p>
+        <a href="#request">Подобрать <span>→</span></a>
+      </article>
+      <article class="card wide rv" data-pick="Прокат">
+        <span class="num">05</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M14 9l2 2"/></svg>
+        <h3>Прокат</h3>
+        <p>Автомобили в прокат: от бюджета до премиума.</p>
+        <a href="#rent">Подробнее <span>→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec rent" id="rent">
+  <div class="wrap rent-grid">
+    <div class="rv">
+      <p class="kicker"><i></i>Прокат</p>
+      <h2>От бюджета <em>до премиума</em></h2>
+      <p class="lead">Скажите, на какой срок и для чего нужен автомобиль. Подберём вариант под задачу и бюджет.</p>
+      <a class="btn gold" href="#request" data-pick="Прокат">Подобрать автомобиль</a>
+    </div>
+    <div class="scale rv" aria-hidden="true">
+      <div class="scale-line"><i></i></div>
+      <div class="scale-ends"><span>Бюджет</span><span>Премиум</span></div>
+      <div class="scale-big">RS</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="kicker"><i></i>Как работаем</p>
+      <h2>Под ключ — это <em>четыре шага</em></h2>
+    </div>
+    <ol class="steps">
+      <li class="rv"><span>01</span><h3>Звонок или заявка</h3><p>Рассказываете, что случилось с автомобилем или что нужно сделать.</p></li>
+      <li class="rv"><span>02</span><h3>Осмотр</h3><p>Смотрим автомобиль и называем стоимость и срок.</p></li>
+      <li class="rv"><span>03</span><h3>Работы</h3><p>Делаем обслуживание, ремонт или детейлинг. Запчасти подбираем сами.</p></li>
+      <li class="rv"><span>04</span><h3>Выдача</h3><p>Забираете готовый автомобиль.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec request" id="request">
+  <div class="wrap request-grid">
+    <div class="rv">
+      <p class="kicker"><i></i>Заявка</p>
+      <h2>Расскажите <em>про задачу</em></h2>
+      <p class="lead">Выберите услугу и напишите пару слов про автомобиль. Заявка откроется в WhatsApp, останется нажать «отправить».</p>
+      <a class="phone" href="tel:+79382029777">8 (938) 202-97-77</a>
+      <button class="copy" type="button" data-copy="+79382029777">скопировать номер</button>
+    </div>
+    <form class="form rv" data-form>
+      <fieldset>
+        <legend>Что нужно</legend>
+        <div class="chips" data-chips>
+          <label><input type="radio" name="service" value="ТО" checked><span>ТО</span></label>
+          <label><input type="radio" name="service" value="Ремонт после ДТП"><span>Ремонт после ДТП</span></label>
+          <label><input type="radio" name="service" value="Детейлинг"><span>Детейлинг</span></label>
+          <label><input type="radio" name="service" value="Запчасти и аксессуары"><span>Запчасти и аксессуары</span></label>
+          <label><input type="radio" name="service" value="Прокат"><span>Прокат</span></label>
+        </div>
+      </fieldset>
+      <label class="field"><span>Автомобиль</span><input name="car" type="text" placeholder="Марка, модель, год" autocomplete="off"></label>
+      <label class="field"><span>Комментарий</span><textarea name="note" rows="3" placeholder="Что случилось или что хотите сделать"></textarea></label>
+      <div class="form-btns">
+        <button class="btn gold" type="submit">Отправить в WhatsApp</button>
+        <a class="btn ghost" href="tel:+79382029777">Позвонить</a>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <a class="brand" href="#top"><span class="rs">RS</span><span class="brand-name">Repair<br>Service</span></a>
+    <p>Авто под ключ: ТО, ремонт после ДТП, детейлинг, оригинальные запчасти и аксессуары, прокат.</p>
+    <a class="phone sm" href="tel:+79382029777">8 (938) 202-97-77</a>
+  </div>
+  <div class="wrap credit">
+    <span>© 2026 Repair Service</span>
+    <span>3D-модель: <a href="https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf" target="_blank" rel="noopener">Porsche 911 Carrera 4S</a>, автор Karol Miklas, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ru" target="_blank" rel="noopener">CC BY-SA 4.0</a>; цвет и материалы изменены.</span>
+  </div>
+</footer>
+
+<!-- на телефоне: кнопки всегда под рукой -->
+<div class="dock">
+  <a class="btn ghost" href="tel:+79382029777">Позвонить</a>
+  <a class="btn gold" href="#request">Заявка</a>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
